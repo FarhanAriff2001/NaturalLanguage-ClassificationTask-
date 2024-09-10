@@ -1,0 +1,73 @@
+# Farhan Ariff bin Halis Azhan
+# farharif
+# Assignment4
+
+1. Accuracy of your Naive Bayes classifier on the jokes dataset, as described above
+72.5
+
+2. Accuracy of your Naive Bayes classifier on the second dataset (AI generated jokes/non-jokes)
+50.77202543142597
+
+3. For each of the two datasets, find and include the top 10 words that have the highest conditional
+    probability (i.e., P(w|c)) in each of the two classes considered (joke, non-joke). 
+    Include both the words as well as the conditional probability. 
+    This can be from any of the N test iterations that were executed. 
+    Under each class, list the words in descending order of their conditional probability.
+
+___________________________________________________________
+jokes folder
+
+type : "joke"
+
+('the', -3.874097655461238), 
+('a', -3.9260573943919495), 
+('you', -3.9668793889122043), 
+('to', -4.1831024973818405),
+('is', -4.236212322695788), 
+('of', -4.605959348201874), 
+('and', -4.632627595284036), 
+('it', -4.632627595284036), 
+('i', -4.747037946461779), 
+('your', -4.747037946461779)
+
+type : "non-joke"
+
+('the', -3.8966948597341107), 
+('to', -4.2275491040511), 
+('a', -4.3527122470051065), 
+('of', -4.72538753229028), 
+('in', -4.827170226600222), 
+('is', -4.863537870771097), 
+('and', -4.9012781987539435), 
+('be', -5.0238805208462765), 
+('it', -5.163642463221435), 
+('you', -5.214935757608986)
+
+___________________________________________________________
+AI-jokes folder
+
+type : "joke"
+
+('the', -2.9236376011970244)
+('why', -3.5513241766444303)
+('because', -3.668531341280004)
+('a', -3.7054748564716884)
+('to', -3.795423093134628)
+('did', -4.018566644448837)
+('it', -4.208268308540415)
+('and', -4.518423236844255)
+('they', -4.530618509938073)
+("don't", -4.675608820366667)
+
+type : "non-joke"
+
+('the', -2.8766358758150776)
+('why', -3.554347248245184)
+('because', -3.6677634647352266)
+('to', -3.7231932696745575)
+('a', -3.749441495749494)
+('did', -4.002276836871107)
+('it', -4.190092912982702)
+('they', -4.375725731080313)
+('and', -4.514244665215874)
+('in', -4.635605522220142)
