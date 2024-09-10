@@ -1,0 +1,1 @@
+Question: Why was the UDP packet important in the network? Answer: Because it didn't care if any packets were lost as long as it successfully broadcasted the data!
